@@ -1,0 +1,29 @@
+{
+	"name":        "app-skeleton/redis",
+	"type":        "kohana-module",
+	"description": "Redis module for Kohana based on phpredis",
+	"homepage":    "https://github.com/app-skeleton/redis",
+	"license":     "BSD-3-Clause",
+	"keywords":    ["kohana", "framework", "accounts"],
+	"authors": [
+		{
+			"name":     "Pap Tamas",
+			"email":    "paptamas@gmail.com",
+			"homepage": "https://github.com/paptamas",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/app-skeleton/redis/issues"
+	},
+	"require": {
+		"composer/installers": 	"~1.0",
+		"app-skeleton/auth":	"dev-3.3/master",
+		"php":                 	">=5.3.3"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-3.3/develop": "3.3.x-dev"
+		}
+	}
+}
